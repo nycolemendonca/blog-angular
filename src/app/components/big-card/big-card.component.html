@@ -2,7 +2,7 @@
   <img src='{{ photoCover }}' class="card-img-top" alt="">
 
   <div class="card-body">
-    <h5 class="card-title"><a href="#" class="text-reset">{{ cardTitle }}</a></h5>
+    <h5 class="card-title"><a [routerLink]="['content', id]" class="text-reset">{{ cardTitle }}</a></h5>
     <p class="card-text">{{ cardDescription }}</p>
     <p class="card-text"><small>Last updated 3 mins ago</small></p>
   </div>
